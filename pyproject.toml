@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "llm-test"
+version = "0.1.0"
+description = ""
+authors = ["clint eastwood<clint@eastwood.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+huggingface_hub = { version = "^0.26.0", extras = ["cli"] }
+
+
+[build-system]
+requires = ["poetry-core>=1.8.4"]
+build-backend = "poetry.core.masonry.api"
